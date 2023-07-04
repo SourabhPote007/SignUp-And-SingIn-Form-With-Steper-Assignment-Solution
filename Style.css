@@ -1,0 +1,260 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.form-container {
+    width: 600px;
+    height: 400px;
+    margin:100px auto;
+    /* padding: 20px; */
+    border: 1px solid #ccc;
+    /* background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%); */
+    display: flex;
+    justify-content: center;
+}
+
+.Signup
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Signup h2
+{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.Signup .ProfileImage
+{
+    margin: 30px 0px;
+    position: relative;
+}
+.Signup .ProfileImage label
+{
+    font-size: 20px;
+    
+}
+.Signup .ProfileImage img
+{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 60px;
+    cursor: pointer;
+}
+.Signup .ProfileImage input
+{
+    font-size: 10px;
+    position: absolute;
+    opacity: 0;
+}
+
+.Signup label
+{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Signup div input
+{
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.Signup div input:focus
+{
+    border: none;
+    outline: none;
+}
+
+.FirstName,.LastName,.EmailPhone
+{
+    margin: 35px 0px;
+}
+
+.SendOTP
+{
+    margin-left: 41%;
+    width: 179px;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    padding: 10px 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.City
+{
+    margin: 35px 0;
+}
+.Address
+{
+    margin: 35px 0;
+}
+.Pincode
+{
+    margin: 35px 0;
+}
+.State
+{
+    margin: 35px 0;
+}
+.buttons
+{
+    margin-top: 60px;
+}
+
+.AcceptTerms
+{
+    margin: 35px 0;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+.Btns
+{
+    margin-top: 155px;
+}
+
+.Login h2
+{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px pink;
+}
+.LoginEmailPhone
+{
+    margin: 35px 0;
+}
+.LoginEmailPhone label
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+#loginEmailPhone
+{
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+}
+#loginEmailPhone:focus
+{
+    border: none;
+    outline: none;
+}
+.OTPLogin
+{
+
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+.OTPLogin label
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+#otpContainer div label
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+}
+#passwordContainer div label
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+}
+#passwordContainer
+{
+    margin: 20px 0;
+}
+#otp
+{
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+}
+#otp:focus
+{
+    border: none;
+    outline: none;
+}
+
+#password
+{
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+}
+#password:focus
+{
+    border: none;
+    outline: none;
+}
+.sendOTP
+{
+    margin: 35px 0;
+    margin-left: 37%;
+    width: 182px;
+    cursor: pointer;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+}
+.loginBtn
+{
+    margin-left: 37%;
+    width: 182px;
+    cursor: pointer;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+}
+.PNButtons
+{
+    cursor: pointer;
+}

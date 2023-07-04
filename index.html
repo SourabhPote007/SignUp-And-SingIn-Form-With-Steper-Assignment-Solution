@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup and Login</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="stepper">
+            <div class="step active Signup" id="step1">
+                <h2>Step 1 : Account Information</h2>
+                <div class="ProfileImage">
+                    <label for="image">Profile Image  : </label>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAM1BMVEXk5ueutLfn6eqrsbTp6+zg4uOwtrnJzc/j5earsbW0uby4vcDQ09XGyszU19jd3+G/xMamCvwDAAAFLklEQVR4nO2d2bLbIAxAbYE3sDH//7WFbPfexG4MiCAcnWmnrzkjIRaD2jQMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMw5wQkHJczewxZh2lhNK/CBOQo1n0JIT74/H/qMV0Z7GU3aCcVPuEE1XDCtVLAhgtpme7H0s1N1U7QjO0L8F7llzGeh1hEG/8Lo7TUmmuSrOfns9xnGXpXxsONPpA/B6OqqstjC6Ax/0ujkNdYQQbKNi2k64qiiEZ+ohi35X+2YcZw/WujmslYewiAliVYrxgJYrdwUmwXsU+RdApUi83oNIE27YvrfB/ZPg8+BJETXnqh9CVzBbTQHgojgiCvtqU9thFJg/CKz3VIMKMEkIXxIWqIpIg2SkjYj+xC816mrJae2aiWGykxRNsW0UwiJghJDljYI5CD8GRiCtIsJxizYUPQ2pzItZy5pcisTRdk/a9m4amtNNfBuQkdVhSaYqfpNTSFGfb9GRIakrE2Pm+GFLaCQPqiu0OpWP+HMPQQcgQMiQprWXNmsVwIjQjYi/ZrhAqNTCgr2gu0Jnz85RSSjso0HkMFZ0YZjKkc26a/jlmh9JiDyDxi9oeorTYAzZkwwoMz19pzj9bnH/GP/+qbchjSGflneWYhtTuKdMOmNKZcJ5TjInQKcYXnESd/jQxy0ENpULTNGOGgxpap/oyw9pbUAqhfx2Dbkhovvfgz4iUzoM9+GlK6/Mh4q29hyC1mwro30hpVVLPF9wYQr71RazOeM5/cw81iBRD+A03aM9/C/obbrKjbYSpCmIVG3qT/Q8oeUo3Rz0IL7vI1tEbCB9pSiu8I/aV8x3Kg/BGWrWp4ZVs0nZfmAoEG4h/61yHYIJiFSl6Q0Vk6tTW1N8kYp8hdOkfHYYMXd2Qft+8CYwqYDSKvqIh+MCF8Wgca2u/cwdgeW3TtuVn6+1oBs3yLo5C2JpK6CvQzGpfUkz9UG/87gCsi5o2LIXolxN0FbwAsjOLEr+YJmXn7iR6N0BCt5p5cMxm7eAsfS+/CACQf4CTpKjzgkvr2cVarVTf96372yut7XLJ1sa7lv6VcfgYrWaxqr3Wlo1S6pvStr22sxOtTNPLzdY3nj20bPP+ejFdJYkLsjGLdtPBEbe/mr2bQKiXWJDroA+vtzc0p9aahuwqHMDYrQEXHEw9jwQl3drMpts9JBU1SdktPe5FBRdJQ6bwXBpa57ib2A8kukQDzMjh++Uo7Fo6Wd02Pkf4fknqoo4HtvAIjsqUcjx6DIPgWCaOML9rKI/oqD9/lgNrn+eF+p7j8tnzHBiR7+kdUGw/+V1Kzkc75mMy6U+FMaxjPibiM1U1uGM+puInHpmALZCgP4pt7i840MV8+0R1zPsRB6UTcqpizncYwZ89syDydfyWCwXB1l8/zRNGWbTG/GHKUm9AkxHMc/EGSk3z2+ArEhPEV5TUBLEvUGFcjEUH80J/jveTGOAJEljJbILWGQT3zRYiwuKsUXN1EEJAzBhRJFll7mBUG7KD8EqPkKekBREaL8hMDZLQSG6AQjtHPYmvTQnX0TtpC1SYCe2YdkkyLP3jj5BSbKiuR585eQhTgoje6yIb0Yb0C+mV6EYvebqw5SDy2WmubogZiF2AVxPC2FpDf8H2Q9QWo6IkjUxTWVEI3WY/wrCeSuqJ+eRWzXR/JXwgVjUMozbCOfoEZiSiKVGepqv5CJ8RyR4D7xBeamqa7z3BJ/z17JxuBPdv93d/a2Ki878MMAzDMAzDMAzDMAzDMF/KP09VUmxBAiI3AAAAAElFTkSuQmCC" alt="">
+                    <input type="file" id="image" name="image" />
+                </div>
+                <div class="FirstName">
+                    <label for="firstName">First Name :</label>
+                    <input type="text" style="margin-left: 25px;" placeholder="Enter Your First Name" id="firstName" name="firstName" required />
+                </div>
+                <div class="LastName">
+                    <label for="lastName">Last Name :</label>
+                    <input type="text" style="margin-left: 28px;" placeholder="Enter Your Last Name" id="lastName" name="lastName" required />
+                </div>
+                <div class="EmailPhone">
+                    <label for="emailPhone">Phone/Email :</label>
+                    <input type="text" style="margin-left: 12px;" placeholder="Enter Your Email Or Phone" id="emailPhone" name="emailPhone" required />
+                </div>
+                <button type="button" class="SendOTP" onclick="sendOTP()">Send OTP</button>
+                <div class="button-container">
+                    <button class="hidden"></button>
+                    <button type="button" class="PNButtons" onclick="nextStep()">Next</button>
+                </div>
+            </div>
+
+            <div class="step Signup"  id="step2">
+                <h2>Step 2 : Personal Details</h2>
+                <div class="City">
+                    <label for="city">City :</label>
+                    <input type="text" placeholder="Enter Your City" style="margin-left: 32px;" id="city" name="city" required />
+                </div>
+                <div class="Address">
+                    <label for="address">Address :</label>
+                    <input type="text" placeholder="Enter Your Address" id="address" name="address" required />
+                </div>
+                <div class="Pincode">
+                    <label for="pincode">Pincode :</label>
+                    <input type="text" placeholder="Enter Your Pincode" style="margin-left: 2px;" id="pincode" name="pincode" required />
+                </div>
+                <div class="State">
+                    <label for="state">State :</label>
+                    <input type="text" style="margin-left: 28px;" placeholder="Enter Your State" id="state" name="state" required />
+                </div>
+                <div class="button-container buttons">
+                    <button type="button" class="PNButtons" onclick="previousStep()">Previous</button>
+                    <button type="button" class="PNButtons" onclick="nextStep()">Next</button>
+                </div>
+            </div>
+
+            <div class="step Signup" id="step3">
+                <h2>Step 3 : Terms and Conditions</h2>
+                <div class="AcceptTerms">
+                    <input type="checkbox" id="acceptTerms" required />
+                    <label for="acceptTerms">I accept the terms and conditions</label>
+                </div>
+                <div class="button-container Btns">
+                    <button type="button" class="PNButtons" onclick="previousStep()">Previous</button>
+                    <button type="button" class="PNButtons" onclick="nextStep()">Submit</button>
+                </div>
+            </div>
+
+        <div class="step Login" id="step4">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="LoginEmailPhone">
+                    <label for="loginEmailPhone">Email/Phone :</label>
+                    <input type="text" id="loginEmailPhone" placeholder="Enter Your Email Or Phone" name="loginEmailPhone" required />
+                </div>
+
+                <div class="OTPLogin">
+                    <div> 
+                    <input type="radio" id="otpLogin" name="loginOption" value="otp" onclick="showLoginOption('otp')" />
+                    <label for="otpLogin" style="cursor: pointer;">Login with OTP</label>
+                    </div>
+                    <div> 
+                    <input type="radio" id="passwordLogin" name="loginOption" value="password"
+                        onclick="showLoginOption('password')" />
+                    <label for="passwordLogin" style="cursor: pointer;">Login with Password</label>
+                    </div>
+                </div>
+
+                <div id="otpContainer" style="display: none">
+                    <div>
+                        <label for="otp">OTP :</label>
+                        <input type="text" style="margin-left: 74px;cursor: pointer;" id="otp" name="otp" required />
+                    </div>
+                    <button type="button" class="sendOTP" onclick="sendOTP()">Send OTP</button>
+                </div>
+
+                <div id="passwordContainer" style="display: none">
+                    <div>
+                        <label for="password">Password :</label>
+                        <input type="password" style="margin-left: 34px;cursor: pointer;" id="password" name="password" required />
+                    </div>
+                </div>
+
+                <button type="submit" class="loginBtn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
